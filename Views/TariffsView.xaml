@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="ParkingInterface.Views.TariffsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:converters="clr-namespace:ParkingInterface.Converters">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Список тарифів -->
+        <ListView ItemsSource="{Binding Tariffs}" SelectedItem="{Binding SelectedTariff}" Grid.Column="0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding TariffId}" Width="50" />
+                    <GridViewColumn Header="Назва" DisplayMemberBinding="{Binding Name}" Width="100" />
+                    <GridViewColumn Header="Ціна" DisplayMemberBinding="{Binding Price}" Width="80" />
+                    <GridViewColumn Header="Тривалість" DisplayMemberBinding="{Binding Duration}" Width="100" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <!-- Форма додавання тарифу -->
+        <StackPanel Grid.Column="1" Margin="20,0,0,0">
+            <TextBlock Text="Назва:" />
+            <TextBox Text="{Binding NewTariff.Name}" />
+
+            <TextBlock Text="Ціна:" Margin="0,10,0,0" />
+            <TextBox Text="{Binding NewTariff.Price}" />
+
+            <TextBlock Text="Тривалість (HH:MM:SS):" Margin="0,10,0,0" />
+            <TextBox Text="{Binding NewTariff.Duration}" />
+
+            <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                <Button Content="Додати" Command="{Binding AddCommand}" Width="75" />
+                <Button Content="Видалити" Command="{Binding DeleteCommand}" Width="75" Margin="10 0 0 0"
+                        IsEnabled="{Binding SelectedTariff, Converter={StaticResource NullToBoolConverter}}" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+
+    <!-- Ресурси -->
+    <UserControl.Resources>
+        <converters:NullToBoolConverter x:Key="NullToBoolConverter" />
+    </UserControl.Resources>
+</UserControl>

@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="ParkingInterface.Views.ClientsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:converters="clr-namespace:ParkingInterface.Converters"
+             xmlns:viewModels="clr-namespace:ParkingInterface.ViewModels">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Список клієнтів -->
+        <ListView ItemsSource="{Binding Clients}" SelectedItem="{Binding SelectedClient}" Grid.Column="0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding ClientId}" Width="50" />
+                    <GridViewColumn Header="Прізвище" DisplayMemberBinding="{Binding LastName}" Width="100" />
+                    <GridViewColumn Header="Ім'я" DisplayMemberBinding="{Binding FirstName}" Width="100" />
+                    <GridViewColumn Header="По батькові" DisplayMemberBinding="{Binding MiddleName}" Width="100" />
+                    <GridViewColumn Header="Телефон" DisplayMemberBinding="{Binding PhoneNumber}" Width="100" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <!-- Форма введення нового клієнта -->
+        <StackPanel Grid.Column="1" Margin="20,0,0,0">
+            <TextBlock Text="Прізвище:" />
+            <TextBox Text="{Binding NewClient.LastName}" />
+
+            <TextBlock Text="Ім'я:" Margin="0,10,0,0" />
+            <TextBox Text="{Binding NewClient.FirstName}" />
+
+            <TextBlock Text="По батькові:" Margin="0,10,0,0" />
+            <TextBox Text="{Binding NewClient.MiddleName}" />
+
+            <TextBlock Text="Телефон:" Margin="0,10,0,0" />
+            <TextBox Text="{Binding NewClient.PhoneNumber}" />
+
+            <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                <Button Content="Додати" Command="{Binding AddCommand}" Width="75" />
+                <Button Content="Видалити" Command="{Binding DeleteCommand}" Width="75" Margin="10,0,0,0"
+                        IsEnabled="{Binding SelectedClient, Converter={StaticResource NullToBoolConverter}}" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

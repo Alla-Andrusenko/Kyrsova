@@ -1,0 +1,84 @@
+D:\Coding\Visual Studio\VS projects\ParkingInterface\bin\Debug\ParkingInterface.exe.config
+D:\Coding\Visual Studio\VS projects\ParkingInterface\bin\Debug\ParkingInterface.exe
+D:\Coding\Visual Studio\VS projects\ParkingInterface\bin\Debug\ParkingInterface.pdb
+D:\Coding\Visual Studio\VS projects\ParkingInterface\bin\Debug\EntityFramework.dll
+D:\Coding\Visual Studio\VS projects\ParkingInterface\bin\Debug\EntityFramework.SqlServer.dll
+D:\Coding\Visual Studio\VS projects\ParkingInterface\bin\Debug\System.Data.SQLite.dll
+D:\Coding\Visual Studio\VS projects\ParkingInterface\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Coding\Visual Studio\VS projects\ParkingInterface\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Coding\Visual Studio\VS projects\ParkingInterface\bin\Debug\EntityFramework.xml
+D:\Coding\Visual Studio\VS projects\ParkingInterface\bin\Debug\EntityFramework.SqlServer.xml
+D:\Coding\Visual Studio\VS projects\ParkingInterface\bin\Debug\System.Data.SQLite.xml
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\ParkingInterface.csproj.AssemblyReference.cache
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\MainWindow.g.cs
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\App.g.cs
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\ParkingInterface_MarkupCompile.cache
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\ParkingInterface_MarkupCompile.lref
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\MainWindow.baml
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\ParkingInterface.g.resources
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\ParkingInterface.Properties.Resources.resources
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\ParkingInterface.csproj.GenerateResource.cache
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\ParkingInterface.csproj.CoreCompileInputs.cache
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\ParkingI.BE7E7828.Up2Date
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\ParkingInterface.exe
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\ParkingInterface.pdb
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\App.baml
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\Views\AdmissionsView.g.cs
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\Views\CarsView.g.cs
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\Views\ClientsView.g.cs
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\Views\ContractsView.g.cs
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\Views\EntranceRecordsView.g.cs
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\Views\ParkingSpotsView.g.cs
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\Views\PaymentsView.g.cs
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\Views\TariffsView.g.cs
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\Views\AdmissionsView.baml
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\Views\CarsView.baml
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\Views\ClientsView.baml
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\Views\ContractsView.baml
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\Views\EntranceRecordsView.baml
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\Views\ParkingSpotsView.baml
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\Views\PaymentsView.baml
+D:\Coding\Visual Studio\VS projects\ParkingInterface\obj\Debug\Views\TariffsView.baml
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\bin\Debug\ParkingInterface.exe.config
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\bin\Debug\ParkingInterface.exe
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\bin\Debug\ParkingInterface.pdb
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\bin\Debug\EntityFramework.dll
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\bin\Debug\System.Data.SQLite.dll
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\bin\Debug\EntityFramework.xml
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\bin\Debug\System.Data.SQLite.xml
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\ParkingInterface.csproj.AssemblyReference.cache
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\MainWindow.g.cs
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\Views\AdmissionsView.g.cs
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\Views\CarsView.g.cs
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\Views\ClientsView.g.cs
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\Views\ContractsView.g.cs
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\Views\EntranceRecordsView.g.cs
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\Views\ParkingSpotsView.g.cs
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\Views\PaymentsView.g.cs
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\Views\TariffsView.g.cs
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\App.g.cs
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\ParkingInterface_MarkupCompile.cache
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\ParkingInterface_MarkupCompile.lref
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\App.baml
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\MainWindow.baml
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\Views\AdmissionsView.baml
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\Views\CarsView.baml
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\Views\ClientsView.baml
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\Views\ContractsView.baml
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\Views\EntranceRecordsView.baml
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\Views\ParkingSpotsView.baml
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\Views\PaymentsView.baml
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\Views\TariffsView.baml
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\ParkingInterface.g.resources
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\ParkingInterface.Properties.Resources.resources
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\ParkingInterface.csproj.GenerateResource.cache
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\ParkingInterface.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\ParkingI.BE7E7828.Up2Date
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\ParkingInterface.exe
+C:\Users\Asus\Downloads\Telegram Desktop\ParkingInterface\ParkingInterface\obj\Debug\ParkingInterface.pdb

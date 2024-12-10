@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="ParkingInterface.Views.ParkingSpotsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:converters="clr-namespace:ParkingInterface.Converters">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Список паркувальних місць -->
+        <ListView ItemsSource="{Binding ParkingSpots}" SelectedItem="{Binding SelectedSpot}" Grid.Column="0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding SpotId}" Width="50" />
+                    <GridViewColumn Header="Договір" Width="150">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ContractInfo}" />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Зайнято" DisplayMemberBinding="{Binding IsOccupied}" Width="80" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <!-- Форма додавання паркувального місця -->
+        <StackPanel Grid.Column="1" Margin="20,0,0,0">
+            <TextBlock Text="Договір (якщо зайнято):" />
+            <ComboBox ItemsSource="{Binding Contracts}"
+                      SelectedValue="{Binding NewSpot.ContractId}"
+                      SelectedValuePath="ContractId"
+                      DisplayMemberPath="ContractId"
+                      IsEnabled="{Binding NewSpot.IsOccupied}" />
+
+            <TextBlock Text="Зайнято:" Margin="0,10,0,0" />
+            <CheckBox IsChecked="{Binding NewSpot.IsOccupied}" Content="Так" />
+
+            <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                <Button Content="Додати" Command="{Binding AddCommand}" Width="75" />
+                <Button Content="Видалити" Command="{Binding DeleteCommand}" Width="75" Margin="10,0,0,0"
+                        IsEnabled="{Binding SelectedSpot, Converter={StaticResource NullToBoolConverter}}" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+
+    <!-- Ресурси -->
+    <UserControl.Resources>
+        <converters:NullToBoolConverter x:Key="NullToBoolConverter" />
+    </UserControl.Resources>
+</UserControl>

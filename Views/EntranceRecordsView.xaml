@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="ParkingInterface.Views.EntranceRecordsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:converters="clr-namespace:ParkingInterface.Converters">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Список записів проїзду -->
+        <ListView ItemsSource="{Binding EntranceRecords}" SelectedItem="{Binding SelectedRecord}" Grid.Column="0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding RecordId}" Width="50" />
+                    <GridViewColumn Header="Автомобіль" Width="150">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding CarInfo}" />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Час в'їзду" DisplayMemberBinding="{Binding EntryTime}" Width="120" />
+                    <GridViewColumn Header="Час виїзду" DisplayMemberBinding="{Binding ExitTime}" Width="120" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <!-- Форма додавання запису проїзду -->
+        <StackPanel Grid.Column="1" Margin="20,0,0,0">
+            <TextBlock Text="Автомобіль:" />
+            <ComboBox ItemsSource="{Binding Cars}"
+                      SelectedValue="{Binding NewRecord.CarId}"
+                      SelectedValuePath="CarId"
+                      DisplayMemberPath="LicensePlate" />
+
+            <TextBlock Text="Час в'їзду:" Margin="0,10,0,0" />
+            <DatePicker SelectedDate="{Binding NewRecord.EntryTime}" />
+
+            <TextBlock Text="Час виїзду:" Margin="0,10,0,0" />
+            <DatePicker SelectedDate="{Binding NewRecord.ExitTime}" />
+
+            <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                <Button Content="Додати" Command="{Binding AddCommand}" Width="75" />
+                <Button Content="Видалити" Command="{Binding DeleteCommand}" Width="75" Margin="10,0,0,0"
+                        IsEnabled="{Binding SelectedRecord, Converter={StaticResource NullToBoolConverter}}" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+
+    <!-- Ресурси -->
+    <UserControl.Resources>
+        <converters:NullToBoolConverter x:Key="NullToBoolConverter" />
+    </UserControl.Resources>
+</UserControl>

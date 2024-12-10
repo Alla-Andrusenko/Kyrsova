@@ -1,0 +1,35 @@
+﻿<Application x:Class="ParkingInterface.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:viewModels="clr-namespace:ParkingInterface.ViewModels"
+             xmlns:views="clr-namespace:ParkingInterface.Views"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:converters="clr-namespace:ParkingInterface.Converters"
+             Startup="Application_Startup">
+    <Application.Resources>
+        <DataTemplate DataType="{x:Type viewModels:ClientsViewModel}">
+            <views:ClientsView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:CarsViewModel}">
+            <views:CarsView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:ContractsViewModel}">
+            <views:ContractsView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:ParkingSpotsViewModel}">
+            <views:ParkingSpotsView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:PaymentsViewModel}">
+            <views:PaymentsView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:TariffsViewModel}">
+            <views:TariffsView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:EntranceRecordsViewModel}">
+            <views:EntranceRecordsView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:AdmissionsViewModel}">
+            <views:AdmissionsView />
+        </DataTemplate>
+        <converters:NullToBoolConverter x:Key="NullToBoolConverter" />
+    </Application.Resources>
+</Application>
